@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+*{
+    /* font-family: "Anton SC", sans-serif; */
+    font-style: normal;
+}
+
+
+
+::-webkit-scrollbar {
+  background-color: #f8f9fa;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #476ce6;
+}
+
+.wflogo{
+    height: 45px;
+    padding: 5px;
+}
+
+.navbutton{
+    margin: 5px;
+    background-color:#476ce6;
+}
+
+.navbutton:hover{
+  background-color: #f8f9fa;
+  color: #476ce6;
+}
+
+.navhover:hover{
+  color: #476ce6;
+}
+
+.navbar-toggler {
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  color: black;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+#mainNav {
+  background-color: #f8f9fa;
+}
+
+.masthead {
+  background-color: #f8f9fa;
+  background-size: cover;
+  padding-top: 9.5rem;
+  padding-bottom: 5rem;
+  /* backdrop-filter: blur(7px); */
+}
+
+.phone-lol {
+
+  border-radius: 44px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 30px 40px;
+}
+
+.lolcontainer {
+  backdrop-filter: blur(7px);
+  /* border: 1px solid black; */
+  /* color: white; */
+  border-radius: 30px;
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.app-badge {
+  height: 3rem;
+  transition: 0.3s ease-in-out;
+}
+
+.app-badge:hover {
+  transform: translateY(-7px);
+}
+
+.masthead .masthead-device-mockup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.masthead .masthead-device-mockup .circle {
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(red, purple, blue);
+}
+
+.masthead .masthead-device-mockup .shape-1 {
+  border-radius: 50%;
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  background-color: blue;
+  bottom: 15%;
+  left: 10%;
+}
+
+.masthead .masthead-device-mockup .shape-2 {
+  border-radius: 50%;
+  position: absolute;
+  height: 0.75rem;
+  width: 0.75rem;
+  background-color: blue;
+  top: 15%;
+  right: 10%;
+}
+
+.masthead .masthead-device-mockup .img-fluid {
+  position: absolute;
+  width: 200px;
+  top: -50px;
+  right: 200px;
+}
+
+.bg-gradient-primary-to-secondary {
+  background-color: #476ce6;
+}
+
+aside {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+aside,
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.icon-font {
+  font-size: 4rem;
+  color: purple;
+}
+
+.img-fluid {
+  width: 350px;
+  height: auto;
+}
+
+.cta {
+  height: 700px;
+  text-align: center;
+  position: relative;
+  padding: 15rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url(İmg/giff.webp);
+}
+
+.cta-content > .container{
+  /* height: 400px; */
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid white;
+  border-radius: 20px;
+  /* width: 400px; */
+  backdrop-filter: blur(8px);
+}
+
+/* .social-media{
+    background-color: #476ce6;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+} */
+
+.pop-up-icon{
+    color: white;
+    font-size: 40px;
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* .pop-up-icon:hover{
+    transform: translateY(5px);
+} */
+
+/* ------------------------------------------------------------- */
+
+ /* .backroundlol{
+    width: 100%;
+    height: 100px;
+    background-image: url(İmg/sectioon\ imagee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
